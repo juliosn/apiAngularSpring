@@ -1,0 +1,28 @@
+<div class="container">
+    <h2>Lista de Pessoas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Gênero</th>
+                <th>Telefone</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pessoa of pessoas">
+                <td>{{ pessoa.nome }}</td>
+                <td>{{ pessoa.idade }}</td>
+                <td>{{ pessoa.genero }}</td>
+                <td>{{ pessoa.telefone }}</td>
+                <td>
+                    <button (click)="updatePessoa(pessoa.id)">Atualizar</button>
+                    <button (click)="deletePessoa(pessoa.id)">Excluir</button>            
+                </td>
+            </tr>
+            <button style="align-self: center;" type="submit" (click)="createPessoa()">Criar Pessoa</button>
+        </tbody>
+    </table>
+    
+</div>

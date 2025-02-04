@@ -1,0 +1,61 @@
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  td {
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button[type="submit"] {
+    background-color: #27ae60;
+    margin-top: 1rem;
+    width: 80%;
+    padding: 06px;
+    font-size: 1.2rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2ecc71;
+  }
+  
